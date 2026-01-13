@@ -1,0 +1,4363 @@
+[
+  {
+    "DoctorID": "DOC0001",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0002",
+    "AvailabilityDays": [
+      "W",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0003",
+    "AvailabilityDays": [
+      "T",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0004",
+    "AvailabilityDays": [
+      "T",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0005",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "F"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0006",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0007",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0008",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0009",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "F"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0010",
+    "AvailabilityDays": [
+      "W",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0011",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Th"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0012",
+    "AvailabilityDays": [
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0013",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "Th"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0014",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0015",
+    "AvailabilityDays": [
+      "M",
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0016",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0017",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0018",
+    "AvailabilityDays": [
+      "W",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0019",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Th"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0020",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0021",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0022",
+    "AvailabilityDays": [
+      "M",
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0023",
+    "AvailabilityDays": [
+      "W",
+      "Th",
+      "Su"
+    ],
+    "Schedule": {
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0024",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0025",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0026",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0027",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0028",
+    "AvailabilityDays": [
+      "T",
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0029",
+    "AvailabilityDays": [
+      "M",
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0030",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "Th",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0031",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0032",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0033",
+    "AvailabilityDays": [
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0034",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0035",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0036",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0037",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0038",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0039",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0040",
+    "AvailabilityDays": [
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0041",
+    "AvailabilityDays": [
+      "W",
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0042",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0043",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0044",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0045",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0046",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0047",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0048",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0049",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0050",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0051",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Th"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0052",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0053",
+    "AvailabilityDays": [
+      "T",
+      "Th",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0054",
+    "AvailabilityDays": [
+      "W",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0055",
+    "AvailabilityDays": [
+      "T",
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0056",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0057",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0058",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0059",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "S"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0060",
+    "AvailabilityDays": [
+      "W",
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0061",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0062",
+    "AvailabilityDays": [
+      "T",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0063",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0064",
+    "AvailabilityDays": [
+      "T",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0065",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0066",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0067",
+    "AvailabilityDays": [
+      "M",
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0068",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0069",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0070",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0071",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Th",
+      "F"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0072",
+    "AvailabilityDays": [
+      "T",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0073",
+    "AvailabilityDays": [
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0074",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0075",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0076",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0077",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0078",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Th",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0079",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0080",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Th",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0081",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0082",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0083",
+    "AvailabilityDays": [
+      "W",
+      "Th",
+      "Su"
+    ],
+    "Schedule": {
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0084",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "S"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0085",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0086",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0087",
+    "AvailabilityDays": [
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0088",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "F"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0089",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0090",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0091",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0092",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0093",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0094",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0095",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "09:00 AM - 11:00 AM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0096",
+    "AvailabilityDays": [
+      "M",
+      "W",
+      "Th",
+      "F",
+      "S"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0097",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "F",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0098",
+    "AvailabilityDays": [
+      "T",
+      "W",
+      "Th",
+      "S",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      },
+      "S": {
+        "day": "Saturday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "11:00 AM - 01:00 PM",
+          "04:00 PM - 06:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0099",
+    "AvailabilityDays": [
+      "T",
+      "Th",
+      "Su"
+    ],
+    "Schedule": {
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "06:00 PM - 08:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "Su": {
+        "day": "Sunday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      }
+    }
+  },
+  {
+    "DoctorID": "DOC0100",
+    "AvailabilityDays": [
+      "M",
+      "T",
+      "W",
+      "Th",
+      "F"
+    ],
+    "Schedule": {
+      "M": {
+        "day": "Monday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      },
+      "T": {
+        "day": "Tuesday",
+        "time_slots": [
+          "06:00 PM - 08:00 PM",
+          "11:00 AM - 01:00 PM"
+        ]
+      },
+      "W": {
+        "day": "Wednesday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "Th": {
+        "day": "Thursday",
+        "time_slots": [
+          "02:00 PM - 04:00 PM"
+        ]
+      },
+      "F": {
+        "day": "Friday",
+        "time_slots": [
+          "04:00 PM - 06:00 PM",
+          "09:00 AM - 11:00 AM"
+        ]
+      }
+    }
+  }
+]
